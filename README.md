@@ -1,0 +1,89 @@
+# Vigorware（活软件）
+
+**Rethinking the Next-Generation Software Paradigm in the Age of LLM**
+
+[English](#overview) | [中文](#概述)
+
+---
+
+## Overview
+
+Vigorware is a conceptual framework that proposes a fundamentally new software existence form and development paradigm. Rather than treating Large Language Models as bolt-on components within traditional software architectures, Vigorware envisions software as a **living organism** — one that can perceive, reason, evolve, and explain itself.
+
+This repository serves as the **theoretical foundation** for the Vigorware vision, housing design philosophies, conceptual essays, and formal discussions that will guide future implementations.
+
+## 概述
+
+Vigorware（活软件）是一个全新的软件存在形态与开发范式的概念框架。它不是对现有软件架构的增量改良，而是在根基层面重新定义软件与智能的关系——将软件从"由人类编写的、确定性执行的指令集合"转变为"能够感知、推理、进化与自我解释的有机体"。
+
+本仓库是 Vigorware 理念的**理论基础**，收录了阐述其设计哲学、核心原理与应用前景的概念性文章，为未来 Vigorware 的工程实现提供方向指引。
+
+## Core Principles | 核心原则
+
+Vigorware 建立在四项新的基础公理之上，取代传统软件范式的确定性、静态性、人类中心与过程中心假设：
+
+| 新公理           | 替代的旧假设 | 说明                                             |
+| ---------------- | ------------ | ------------------------------------------------ |
+| **概率性共存**   | 确定性       | 概率性推理与确定性逻辑同为系统行为的合法组成部分 |
+| **运行时可变性** | 静态性       | 软件在运行期间有能力对自身进行自主修改与优化     |
+| **多主体协作**   | 人类中心     | LLM 与人类共同参与软件的设计、构建、运行与演化   |
+| **意图优先**     | 过程中心     | 开发核心输入从精确指令转向对目标状态的意图描述   |
+
+由此衍生出六项核心特征：
+
+1. **LLM 第一性** — LLM 作为第一性参与者贯穿软件的编写、编译、运行与进化全流程
+2. **意图驱动开发** — 开发者表达"做什么"，系统自主完成从意图到实现的推理与映射
+3. **模糊性共存** — 概率类型、置信度传播、近似匹配等机制被纳入语言和运行时的核心设计
+4. **多模态原生** — 视觉、听觉、语义等多维度信息作为软件可直接理解的一等输入与输出
+5. **自我进化** — 软件持续感知、自省并自主调整自身的行为逻辑、代码结构乃至架构模式
+6. **完全可解释性** — 每一个决策路径、运行过程与自我修改都可追溯、可审计、可理解
+
+## Documents | 文档
+
+### 中文
+
+| 文档                                                                                                           | 说明                                                                               | 状态      |
+| -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------- |
+| [关于下一代软件存在形态和开发范式的思考](docs/zh_CN/关于下一代软件存在形态和开发范式的思考.md)                 | Vigorware 的核心论文，系统阐述活软件的定义、核心原理、历史必然性、应用前景与局限性 | ✅ 完成   |
+| [语义一致性——一种针对 Vigorware 特性的新型弱一致性模式](docs/zh_CN/一种针对Vigorware特性的新型弱一致性模式.md) | 探讨分布式计算领域针对 Vigorware 特性的新型弱一致性模型                            | 🚧 待补全 |
+
+### English
+
+> English translations are planned. Contributions are welcome.
+
+## Motivation | 动机
+
+当前将 AI 能力融入软件系统的主流实践——无论是作为 API 端点的超级工具、人类编排的 Agent 框架、还是 Coding Agent——都 share 一个共同特征：**软件的基本架构未曾改变，只是多了一个名为"LLM"的组件**。
+
+这一现状导致了五条结构性鸿沟：
+
+- 确定性与概率性的范式冲突
+- 可追溯性无法贯穿全生命周期
+- 进化无法成为软件的内建属性
+- 多模态能力被困在 API 调用的牢笼中
+- 软件的认知不可积累
+
+Vigorware 主张：这些鸿沟不是工程实践的不成熟，而是范式层面的结构性缺陷。解决它们需要从新的基础公理出发，重新定义软件的存在形态。
+
+## Relationship to Traditional Paradigms | 与传统范式的关系
+
+Vigorware **不是对传统软件范式的否定**。正如相对论包含牛顿力学作为低速近似，传统的确定性编程是 Vigorware 在"确定性极限"下的退化形态。当系统不涉及模糊性、无需自我进化、不需要多模态感知时，传统范式不仅足够，且优于 Vigorware。
+
+## Contributing | 参与贡献
+
+Vigorware 目前处于概念探索阶段，欢迎以下形式的贡献：
+
+- 📝 对现有文档的勘误与改进建议
+- 💡 新的设计哲学文章或理论探讨
+- 🌐 英文翻译
+- 🔬 对核心概念的形式化研究
+
+请通过 Issue 或 Pull Request 参与讨论。
+
+## License | 许可证
+
+本项目采用 [MIT License](LICENSE) 开源。
+
+---
+
+<p align="center"><em>"软件的下一个形态，不是被更好地编写出来的程序，而是能够自己活下去的生命。"</em></p>
