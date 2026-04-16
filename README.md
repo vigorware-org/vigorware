@@ -1,89 +1,85 @@
-# Vigorware（活软件）
+# Vigorware
 
 **Rethinking the Next-Generation Software Paradigm in the Age of LLM**
 
-[English](#overview) | [中文](#概述)
+[中文版](docs/zh_CN/README.md)
 
 ---
 
 ## Overview
 
-Vigorware is a conceptual framework that proposes a fundamentally new software existence form and development paradigm. Rather than treating Large Language Models as bolt-on components within traditional software architectures, Vigorware envisions software as a **living organism** — one that can perceive, reason, evolve, and explain itself.
+Vigorware is a conceptual framework that proposes a fundamentally new software existential form and development paradigm. Rather than treating Large Language Models as bolt-on components within traditional software architectures, Vigorware envisions software as a **living organism** — one that can perceive, reason, evolve, and explain itself.
 
 This repository serves as the **theoretical foundation** for the Vigorware vision, housing design philosophies, conceptual essays, and formal discussions that will guide future implementations.
 
-## 概述
+## Core Principles
 
-Vigorware（活软件）是一个全新的软件存在形态与开发范式的概念框架。它不是对现有软件架构的增量改良，而是在根基层面重新定义软件与智能的关系——将软件从"由人类编写的、确定性执行的指令集合"转变为"能够感知、推理、进化与自我解释的有机体"。
+Vigorware is built upon four new foundational axioms, replacing the traditional software paradigm's assumptions of determinism, staticity, human-centricity, and process-centricity:
 
-本仓库是 Vigorware 理念的**理论基础**，收录了阐述其设计哲学、核心原理与应用前景的概念性文章，为未来 Vigorware 的工程实现提供方向指引。
+| New Axiom                     | Replaces           | Description                                                                                               |
+| ----------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------- |
+| **Probabilistic Coexistence** | Determinism        | Probabilistic reasoning and deterministic logic are equally legitimate components of system behavior      |
+| **Runtime Mutability**        | Staticity          | Software has the ability to autonomously modify and optimize itself during execution                      |
+| **Multi-Agent Collaboration** | Human-Centricity   | LLMs and humans jointly participate in the design, construction, execution, and evolution of software     |
+| **Intent Primacy**            | Process-Centricity | The core input of development shifts from precise instructions to intent descriptions of the target state |
 
-## Core Principles | 核心原则
+From these axioms, six core characteristics emerge:
 
-Vigorware 建立在四项新的基础公理之上，取代传统软件范式的确定性、静态性、人类中心与过程中心假设：
+1. **LLM Primacy** — The LLM pervades the entire lifecycle of software as a first-class participant: writing, compilation, execution, and evolution
+2. **Intent-Driven Development** — Developers express _what to do_; the system autonomously completes the reasoning and mapping from intent to implementation
+3. **Coexistence with Fuzziness** — Probabilistic types, confidence propagation, and approximate matching are incorporated into the core design of both the language and the runtime
+4. **Multimodal Nativity** — Visual, auditory, semantic, and other multidimensional signals serve as first-class inputs and outputs that software can directly understand
+5. **Self-Evolution** — Software continuously perceives, introspects, and autonomously adjusts its own behavioral logic, code structure, and even architectural patterns
+6. **Complete Explainability** — Every decision path, execution process, and self-modification is traceable, auditable, and comprehensible
 
-| 新公理           | 替代的旧假设 | 说明                                             |
-| ---------------- | ------------ | ------------------------------------------------ |
-| **概率性共存**   | 确定性       | 概率性推理与确定性逻辑同为系统行为的合法组成部分 |
-| **运行时可变性** | 静态性       | 软件在运行期间有能力对自身进行自主修改与优化     |
-| **多主体协作**   | 人类中心     | LLM 与人类共同参与软件的设计、构建、运行与演化   |
-| **意图优先**     | 过程中心     | 开发核心输入从精确指令转向对目标状态的意图描述   |
-
-由此衍生出六项核心特征：
-
-1. **LLM 第一性** — LLM 作为第一性参与者贯穿软件的编写、编译、运行与进化全流程
-2. **意图驱动开发** — 开发者表达"做什么"，系统自主完成从意图到实现的推理与映射
-3. **模糊性共存** — 概率类型、置信度传播、近似匹配等机制被纳入语言和运行时的核心设计
-4. **多模态原生** — 视觉、听觉、语义等多维度信息作为软件可直接理解的一等输入与输出
-5. **自我进化** — 软件持续感知、自省并自主调整自身的行为逻辑、代码结构乃至架构模式
-6. **完全可解释性** — 每一个决策路径、运行过程与自我修改都可追溯、可审计、可理解
-
-## Documents | 文档
-
-### 中文
-
-| 文档                                                                                                           | 说明                                                                               | 状态      |
-| -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------- |
-| [关于下一代软件存在形态和开发范式的思考](docs/zh_CN/关于下一代软件存在形态和开发范式的思考.md)                 | Vigorware 的核心论文，系统阐述活软件的定义、核心原理、历史必然性、应用前景与局限性 | ✅ 完成   |
-| [语义一致性——一种针对 Vigorware 特性的新型弱一致性模式](docs/zh_CN/一种针对Vigorware特性的新型弱一致性模式.md) | 探讨分布式计算领域针对 Vigorware 特性的新型弱一致性模型                            | 🚧 待补全 |
+## Documents
 
 ### English
 
-> English translations are planned. Contributions are welcome.
+| Document                                                                                               | Description                                                                                                                                                                  | Status      |
+| ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [Rethinking the Nature and Development Paradigm of Next-Generation Software](docs/en/PRIME_THOUGHT.md) | The foundational essay of Vigorware, systematically articulating the definition, core principles, historical inevitability, applications, and limitations of Living Software | ✅ Complete |
 
-## Motivation | 动机
+### 中文
 
-当前将 AI 能力融入软件系统的主流实践——无论是作为 API 端点的超级工具、人类编排的 Agent 框架、还是 Coding Agent——都 share 一个共同特征：**软件的基本架构未曾改变，只是多了一个名为"LLM"的组件**。
+| Document                                                                                       | Description                               | Status         |
+| ---------------------------------------------------------------------------------------------- | ----------------------------------------- | -------------- |
+| [关于下一代软件存在形态和开发范式的思考](docs/zh_CN/关于下一代软件存在形态和开发范式的思考.md) | Vigorware 核心论文（中文原版）            | ✅ Complete    |
+| [语义一致性](docs/zh_CN/语义一致性.md)                                                         | 一种针对 Vigorware 特性的新型弱一致性模式 | 🚧 In Progress |
 
-这一现状导致了五条结构性鸿沟：
+## Motivation
 
-- 确定性与概率性的范式冲突
-- 可追溯性无法贯穿全生命周期
-- 进化无法成为软件的内建属性
-- 多模态能力被困在 API 调用的牢笼中
-- 软件的认知不可积累
+The prevailing approaches to integrating AI capabilities into software systems today — whether as super-tool API endpoints, human-orchestrated Agent frameworks, or Coding Agents — all share a common characteristic: **the fundamental architecture of the software has not changed; there is simply one more component called "LLM" in it.**
 
-Vigorware 主张：这些鸿沟不是工程实践的不成熟，而是范式层面的结构性缺陷。解决它们需要从新的基础公理出发，重新定义软件的存在形态。
+This status quo exposes five structural chasms:
 
-## Relationship to Traditional Paradigms | 与传统范式的关系
+- The paradigm conflict between determinism and probabilism
+- Traceability that cannot span the full lifecycle
+- Evolution that cannot become a built-in property of software
+- Multimodal capabilities trapped in the cage of API calls
+- Software cognition that cannot accumulate
 
-Vigorware **不是对传统软件范式的否定**。正如相对论包含牛顿力学作为低速近似，传统的确定性编程是 Vigorware 在"确定性极限"下的退化形态。当系统不涉及模糊性、无需自我进化、不需要多模态感知时，传统范式不仅足够，且优于 Vigorware。
+Vigorware contends that these chasms are not the immaturity of engineering practice, but structural deficiencies at the paradigm level. Addressing them requires starting from new foundational axioms to redefine the existential form of software.
 
-## Contributing | 参与贡献
+## Relationship to Traditional Paradigms
 
-Vigorware 目前处于概念探索阶段，欢迎以下形式的贡献：
+Vigorware is **not a negation of the traditional software paradigm**. Just as relativity subsumes Newtonian mechanics as a low-velocity approximation, traditional deterministic programming is the degenerate form of Vigorware at the "deterministic limit." When a system involves no fuzziness, requires no self-evolution, and needs no multimodal perception, the traditional paradigm is not only sufficient but superior to Vigorware.
 
-- 📝 对现有文档的勘误与改进建议
-- 💡 新的设计哲学文章或理论探讨
-- 🌐 英文翻译
-- 🔬 对核心概念的形式化研究
+## Contributing
 
-请通过 Issue 或 Pull Request 参与讨论。
+Vigorware is currently in the conceptual exploration stage. See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on how to participate.
 
-## License | 许可证
+We welcome contributions in the following forms:
 
-本项目采用 [MIT License](LICENSE) 开源。
+- 📝 Errata and improvement suggestions for existing documents
+- 💡 New design philosophy essays or theoretical explorations
+- 🌐 Translations
+- 🔬 Formal research on core concepts
+
+## License
+
+This project is open-sourced under the [MIT License](LICENSE).
 
 ---
 
-<p align="center"><em>"软件的下一个形态，不是被更好地编写出来的程序，而是能够自己活下去的生命。"</em></p>
+<p align="center"><em>"The next form of software is not a program that is better written, but a life that can sustain itself."</em></p>
