@@ -38,14 +38,16 @@ From these axioms, six core characteristics emerge:
 
 | Document                                                                                               | Description                                                                                                                                                                  | Status      |
 | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [The Vigorware Manifesto](docs/en/VIGORWARE.md)                                                        | A public-facing declaration of the Vigorware paradigm — its axioms, six core characteristics, historical inevitability, and honest boundaries                                | ✅ Complete |
 | [Rethinking the Nature and Development Paradigm of Next-Generation Software](docs/en/PRIME_THOUGHT.md) | The foundational essay of Vigorware, systematically articulating the definition, core principles, historical inevitability, applications, and limitations of Living Software | ✅ Complete |
 
 ### 中文
 
-| Document                                                                                       | Description                               | Status         |
-| ---------------------------------------------------------------------------------------------- | ----------------------------------------- | -------------- |
-| [关于下一代软件存在形态和开发范式的思考](docs/zh_CN/关于下一代软件存在形态和开发范式的思考.md) | Vigorware 核心论文（中文原版）            | ✅ Complete    |
-| [语义一致性](docs/zh_CN/语义一致性.md)                                                         | 一种针对 Vigorware 特性的新型弱一致性模式 | 🚧 In Progress |
+| Document                                                                                       | Description                                                             | Status         |
+| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------- |
+| [Vigorware 宣言](docs/zh_CN/Vigorware宣言.md)                                                  | 面向大众的 Vigorware 范式宣言——公理、六项核心特征、历史必然性与诚实边界 | ✅ Complete    |
+| [关于下一代软件存在形态和开发范式的思考](docs/zh_CN/关于下一代软件存在形态和开发范式的思考.md) | Vigorware 核心论文（中文原版）                                          | ✅ Complete    |
+| [语义一致性](docs/zh_CN/语义一致性.md)                                                         | 一种针对 Vigorware 特性的新型弱一致性模式                               | 🚧 In Progress |
 
 ## Motivation
 
